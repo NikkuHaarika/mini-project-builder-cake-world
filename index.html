@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Cake World</title>
 </head>
 <body>
-    
+    <div id="head">
+    <div id="container" >
+   <img src="assets/cake.png"  width="160px">
+   <div id="dp"> <h3>Cake World</h3></div>
+   </div>
+</div>
+
+   <div id="container3">
+   <div id="dp1" style="background-image: url('assets/list_template.png')">
+    <div id="menu">Prices
+        <div>Chocolate..........300</div>
+        <div>Strawberry..........100</div>
+        <div>Butterscotch..........200</div>
+        <div>Vanilla..........250</div>
+        <div>Redvelvet..........350</div> 
+    </div>
+</div>
+ 
+<div id="container1">
+   <div id="image"><img src="assets/candle.png"  width="50px" height="50px"></div>
+   <div id="layer5"></div>
+   <div id="layer4"></div>
+   <div id="layer3"></div>
+   <div id="layer2"></div>
+   <div id="layer1"></div>
+</div>
+
+<div id="dp2" style="background-image: url('assets/list_template.png')">
+<div id="container2">Bill
+<div id="item1"></div>
+<div id="item2"></div>
+<div id="item3"></div>
+<div id="item4"></div>
+<div id="item5"></div>
+<div id="total"></div>
+</div>
+</div>
+</div>
+
+<div id="btn">
+    <button onclick="render1()" id="choc" class="flavour">Chocolate</button>
+    <button onclick="render2()" id="straw" class="flavour">Strawberry</button>
+    <button onclick="render3()" id="butter" class="flavour">Butterscotch</button>
+    <button onclick="render4()" id="vanni" class="flavour">Vannila</button>
+    <button onclick="render5()" id="red" class="flavour">Redvelvet</button>
+    <button  id="buy" class="flavour" onclick="render6()">Buy</button>
+</div>
+
 </body>
-<script src="/script.js"></script>
+<script src="script.js"></script>
 </html>
